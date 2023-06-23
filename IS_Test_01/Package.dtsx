@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="34"
-  DTS:VersionGUID="{1E8FA556-A8D8-4334-9F2D-28917011A97F}">
+  DTS:VersionBuild="35"
+  DTS:VersionGUID="{0B00FC8A-FD97-42B5-ABD2-9963E34CF0CE}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -258,7 +258,7 @@
               <DTS:ObjectData>
                 <SQLTask:SqlTaskData
                   SQLTask:Connection="{A8ED5410-FF57-49BA-8E18-A492AA0F85C1}"
-                  SQLTask:SqlStatementSource="select top 10 * from AdventureWorks2019.Sales.Customer&#xA;FOR XML AUTO;"
+                  SQLTask:SqlStatementSource="select top 100 * from AdventureWorks2019.Sales.Customer&#xA;FOR XML AUTO;"
                   SQLTask:ResultType="ResultSetType_XML" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
                   <SQLTask:ResultBinding
                     SQLTask:ResultName="0"
