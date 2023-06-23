@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="30"
-  DTS:VersionGUID="{C9F8BCF1-8F7F-472B-BD4E-2E2DABF2C54F}">
+  DTS:VersionBuild="31"
+  DTS:VersionGUID="{D7562CC2-C035-4C62-B3D7-0A3B10AB31DB}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -40,6 +40,15 @@
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
   <DTS:PackageParameters>
+    <DTS:PackageParameter
+      DTS:CreationName=""
+      DTS:DataType="3"
+      DTS:DTSID="{68C52443-F607-4616-94C4-70CD213B8751}"
+      DTS:ObjectName="par4">
+      <DTS:Property
+        DTS:DataType="3"
+        DTS:Name="ParameterValue">0</DTS:Property>
+    </DTS:PackageParameter>
     <DTS:PackageParameter
       DTS:CreationName=""
       DTS:DataType="3"
