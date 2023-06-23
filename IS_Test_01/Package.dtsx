@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="33"
-  DTS:VersionGUID="{9983D5D9-CC9F-47C9-ABA8-3AD50CD510D0}">
+  DTS:VersionBuild="34"
+  DTS:VersionGUID="{1E8FA556-A8D8-4334-9F2D-28917011A97F}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -50,33 +50,6 @@
       <DTS:Property
         DTS:DataType="8"
         DTS:Name="ParameterValue">Data Source=.;Integrated Security=True;Application Name=SSIS-Package-{A8ED5410-FF57-49BA-8E18-A492AA0F85C1}LocalHost;</DTS:Property>
-    </DTS:PackageParameter>
-    <DTS:PackageParameter
-      DTS:CreationName=""
-      DTS:DataType="3"
-      DTS:DTSID="{68C52443-F607-4616-94C4-70CD213B8751}"
-      DTS:ObjectName="par4">
-      <DTS:Property
-        DTS:DataType="3"
-        DTS:Name="ParameterValue">0</DTS:Property>
-    </DTS:PackageParameter>
-    <DTS:PackageParameter
-      DTS:CreationName=""
-      DTS:DataType="3"
-      DTS:DTSID="{740BDC91-DB88-46CE-BFD5-8855187DC4CD}"
-      DTS:ObjectName="Par_2">
-      <DTS:Property
-        DTS:DataType="3"
-        DTS:Name="ParameterValue">0</DTS:Property>
-    </DTS:PackageParameter>
-    <DTS:PackageParameter
-      DTS:CreationName=""
-      DTS:DataType="3"
-      DTS:DTSID="{2B2BD048-EA19-426F-9061-1EDAF4572431}"
-      DTS:ObjectName="Par_test">
-      <DTS:Property
-        DTS:DataType="3"
-        DTS:Name="ParameterValue">0</DTS:Property>
     </DTS:PackageParameter>
     <DTS:PackageParameter
       DTS:CreationName=""
@@ -209,13 +182,13 @@
       </DTS:Variables>
       <DTS:Executables>
         <DTS:Executable
-          DTS:refId="Package\Sequence Container\Execute SQL Task"
+          DTS:refId="Package\Sequence Container\EST_uspGetEmployeeManagers"
           DTS:CreationName="Microsoft.ExecuteSQLTask"
           DTS:Description="Execute SQL Task"
           DTS:DTSID="{18E9A004-9C5B-45D7-A0C9-1D7DC026B000}"
           DTS:ExecutableType="Microsoft.ExecuteSQLTask"
           DTS:LocaleID="-1"
-          DTS:ObjectName="Execute SQL Task"
+          DTS:ObjectName="EST_uspGetEmployeeManagers"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
           DTS:ThreadHint="0">
           <DTS:Variables />
@@ -349,7 +322,7 @@
           DTS:refId="Package\Sequence Container.PrecedenceConstraints[Constraint]"
           DTS:CreationName=""
           DTS:DTSID="{02E2E839-6DCF-499F-A2D7-72EDF84C4AEE}"
-          DTS:From="Package\Sequence Container\Execute SQL Task"
+          DTS:From="Package\Sequence Container\EST_uspGetEmployeeManagers"
           DTS:LogicalAnd="True"
           DTS:ObjectName="Constraint"
           DTS:To="Package\Sequence Container\Foreach Loop Container" />
@@ -408,7 +381,7 @@
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="170,42"
-          Id="Package\Sequence Container\Execute SQL Task"
+          Id="Package\Sequence Container\EST_uspGetEmployeeManagers"
           TopLeft="97,56" />
         <NodeLayout
           Size="155,42"
