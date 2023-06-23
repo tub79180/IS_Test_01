@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="31"
-  DTS:VersionGUID="{D7562CC2-C035-4C62-B3D7-0A3B10AB31DB}">
+  DTS:VersionBuild="32"
+  DTS:VersionGUID="{7016A5A0-AD27-4B80-A364-EF5327023967}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -21,6 +21,8 @@
       DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
       DTS:DTSID="{A8ED5410-FF57-49BA-8E18-A492AA0F85C1}"
       DTS:ObjectName="LocalHost">
+      <DTS:PropertyExpression
+        DTS:Name="ConnectionString">@[$Package::LocalHost_ConnectionString]</DTS:PropertyExpression>
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectionString="Data Source=.;Integrated Security=True;Application Name=SSIS-Package-{A8ED5410-FF57-49BA-8E18-A492AA0F85C1}LocalHost;" />
@@ -40,6 +42,15 @@
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
   <DTS:PackageParameters>
+    <DTS:PackageParameter
+      DTS:CreationName=""
+      DTS:DataType="8"
+      DTS:DTSID="{EBDD139B-985B-4F52-91BE-0F463032C8F0}"
+      DTS:ObjectName="LocalHost_ConnectionString">
+      <DTS:Property
+        DTS:DataType="8"
+        DTS:Name="ParameterValue">Data Source=.;Integrated Security=True;Application Name=SSIS-Package-{A8ED5410-FF57-49BA-8E18-A492AA0F85C1}LocalHost;</DTS:Property>
+    </DTS:PackageParameter>
     <DTS:PackageParameter
       DTS:CreationName=""
       DTS:DataType="3"
@@ -66,6 +77,16 @@
       <DTS:Property
         DTS:DataType="3"
         DTS:Name="ParameterValue">0</DTS:Property>
+    </DTS:PackageParameter>
+    <DTS:PackageParameter
+      DTS:CreationName=""
+      DTS:DataType="8"
+      DTS:DTSID="{770BA939-F596-429D-8C28-55089C321176}"
+      DTS:ObjectName="Source">
+      <DTS:Property
+        DTS:DataType="8"
+        DTS:Name="ParameterValue"
+        xml:space="preserve"></DTS:Property>
     </DTS:PackageParameter>
   </DTS:PackageParameters>
   <DTS:Variables>
