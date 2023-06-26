@@ -7,25 +7,32 @@
   DTS:CreatorName="YADADELLMICROPC\Damu"
   DTS:DTSID="{7BEF498F-F8B8-49FF-8E12-FA1FF514E932}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="16.0.5209.0"
+  DTS:LastModifiedProductVersion="16.0.5223.0"
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="35"
-  DTS:VersionGUID="{0B00FC8A-FD97-42B5-ABD2-9963E34CF0CE}">
+  DTS:VersionBuild="38"
+  DTS:VersionGUID="{E5D0FD47-0D6E-42AA-9938-03231D696CCC}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[LocalHost]"
+      DTS:refId="Package.ConnectionManagers[AdventureWorks2019]"
       DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
-      DTS:DTSID="{A8ED5410-FF57-49BA-8E18-A492AA0F85C1}"
-      DTS:ObjectName="LocalHost">
+      DTS:DTSID="{3862F9EC-E459-49A7-9140-91C5D1CBB368}"
+      DTS:ObjectName="AdventureWorks2019">
       <DTS:PropertyExpression
-        DTS:Name="ConnectionString">@[$Package::LocalHost_ConnectionString]</DTS:PropertyExpression>
+        DTS:Name="ConnectionString">@[$Package::AdventureWorks2019_ConnectionString]</DTS:PropertyExpression>
+      <DTS:PropertyExpression
+        DTS:Name="Password">@[$Package::pass]</DTS:PropertyExpression>
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=.;Integrated Security=True;Application Name=SSIS-Package-{A8ED5410-FF57-49BA-8E18-A492AA0F85C1}LocalHost;" />
+          DTS:ConnectionString="Data Source=YadaDellMicroPC;User ID=damuyada;Initial Catalog=AdventureWorks2019;Persist Security Info=True;Application Name=SSIS-Package-{3862F9EC-E459-49A7-9140-91C5D1CBB368}YadaDellMicroPC.AdventureWorks2019.damuyada;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWUJ+xwd8bkGRr5btKAu1swAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADTvGICKSS2vSihX4VLXVr9OTaW+qTcvCmZVSCGyk652wAAAAAOgAAAAAIAACAAAADYideSzVG2uC9q0GnjNMriIgRyyuVeoY5SQFONZXmAQCAAAAC9dTknD4pxsvEi3k/oWgnVGbuls4xj1R2W+9iF4Q47tkAAAAD6/CBAyAbEif7Zk86LqnwnmXyPkcImkzpdPfbrq318TVPAwZqOW/c2XRI8Kqq9lKysBRKpx8dDJIYy7G8RbiAB</DTS:Password>
+        </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -37,7 +44,12 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=.;Initial Catalog=AdventureWorks2019;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package-{548E0FC1-D379-448C-A012-96D588C0D673}LocalHost.AdventureWorks2019;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=YadaDellMicroPC;User ID=damuyada;Initial Catalog=AdventureWorks2019;Provider=SQLOLEDB.1;Application Name=SSIS-Package-{548E0FC1-D379-448C-A012-96D588C0D673}LocalHost.AdventureWorks2019;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWUJ+xwd8bkGRr5btKAu1swAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADmFSZwIuryp/vMlI/uhNorjdY5yohXA5UP669hILjXDgAAAAAOgAAAAAIAACAAAAA7aFPUNvgbHbL9HHVIlUzIfc5XPiVIhSdcGoIx6HlQdiAAAACGOv0gQc/PhN/sbPYgJO5WXph75n+hiPSg4bl6RMHfq0AAAACp6r6ZlCJ2/zzXZUUuMhrgWzBYK2Ac9R7ZasU0HL+73I4+AGaW9vvgPxYJhvsRGuRpHr4FBxJ9O6FKEDM1fdAp</DTS:Password>
+        </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
@@ -45,11 +57,26 @@
     <DTS:PackageParameter
       DTS:CreationName=""
       DTS:DataType="8"
-      DTS:DTSID="{EBDD139B-985B-4F52-91BE-0F463032C8F0}"
-      DTS:ObjectName="LocalHost_ConnectionString">
+      DTS:DTSID="{672C5EE3-E290-4FD5-B72D-9F2480E267D9}"
+      DTS:ObjectName="AdventureWorks2019_ConnectionString">
       <DTS:Property
         DTS:DataType="8"
-        DTS:Name="ParameterValue">Data Source=.;Integrated Security=True;Application Name=SSIS-Package-{A8ED5410-FF57-49BA-8E18-A492AA0F85C1}LocalHost;</DTS:Property>
+        DTS:Name="ParameterValue">Data Source=YadaDellMicroPC;User ID=damuyada;Initial Catalog=AdventureWorks2019;Persist Security Info=True;Application Name=SSIS-Package-{3862F9EC-E459-49A7-9140-91C5D1CBB368}YadaDellMicroPC.AdventureWorks2019.damuyada;</DTS:Property>
+    </DTS:PackageParameter>
+    <DTS:PackageParameter
+      DTS:CreationName=""
+      DTS:DataType="8"
+      DTS:DTSID="{9D781CB3-0E3C-48FE-8E74-68062686BA38}"
+      DTS:ObjectName="pass"
+      DTS:Required="True"
+      DTS:Sensitive="True">
+      <DTS:Property
+        DTS:Name="ParameterValue">
+        <DTS:Property
+          DTS:DataType="8"
+          DTS:Name="ParameterValue"
+          Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWUJ+xwd8bkGRr5btKAu1swAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACJJOMZJDXNEogLAR/46B1ZWLIFx7dHytmF5zb9fg6RuQAAAAAOgAAAAAIAACAAAACOCX6WRx3itF1rQEfujdK/ra5//HOcxDrMK0JSy742VCAAAAB8iEApS33Upt8IEQAx94lQTGUT6SoLOtDA57JAq6EBZEAAAABQprpGru/Ccy3J+KLUEedrCbR36BdRO+ZpVoekfehFQGafDqi0VgEvS3n9vWAzCbr9y9aGSjl+hsipjlwpZpnj</DTS:Property>
+      </DTS:Property>
     </DTS:PackageParameter>
     <DTS:PackageParameter
       DTS:CreationName=""
@@ -257,7 +284,7 @@
               <DTS:Variables />
               <DTS:ObjectData>
                 <SQLTask:SqlTaskData
-                  SQLTask:Connection="{A8ED5410-FF57-49BA-8E18-A492AA0F85C1}"
+                  SQLTask:Connection="{3862F9EC-E459-49A7-9140-91C5D1CBB368}"
                   SQLTask:SqlStatementSource="select top 100 * from AdventureWorks2019.Sales.Customer&#xA;FOR XML AUTO;"
                   SQLTask:ResultType="ResultSetType_XML" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
                   <SQLTask:ResultBinding
