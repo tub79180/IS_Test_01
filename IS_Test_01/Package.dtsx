@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="38"
-  DTS:VersionGUID="{E5D0FD47-0D6E-42AA-9938-03231D696CCC}">
+  DTS:VersionBuild="39"
+  DTS:VersionGUID="{DB649BED-EB6C-44D3-9A6A-DB807350113A}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -31,7 +31,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWUJ+xwd8bkGRr5btKAu1swAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADTvGICKSS2vSihX4VLXVr9OTaW+qTcvCmZVSCGyk652wAAAAAOgAAAAAIAACAAAADYideSzVG2uC9q0GnjNMriIgRyyuVeoY5SQFONZXmAQCAAAAC9dTknD4pxsvEi3k/oWgnVGbuls4xj1R2W+9iF4Q47tkAAAAD6/CBAyAbEif7Zk86LqnwnmXyPkcImkzpdPfbrq318TVPAwZqOW/c2XRI8Kqq9lKysBRKpx8dDJIYy7G8RbiAB</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWUJ+xwd8bkGRr5btKAu1swAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAA8wCYx9+ZAix199160JbkWPAV2Mr99dTGbr134YcBsCgAAAAAOgAAAAAIAACAAAACnFSOe84fb2rMY/ipBhT0dVRHNaMqT8IzdtynWQRFZRiAAAACxaJNYdWKWwUqjS73SyQxw6oJjyUAg+PW9hpZHGCfVu0AAAAAJGD5XdUN3rYLgWxgrtEvv7+Qy8QaGuMrIhmz8tydCH64VD0u57gXfCMF6b78r0P4M15jkS9WoZSGbX0BG3br9</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -48,7 +48,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWUJ+xwd8bkGRr5btKAu1swAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADmFSZwIuryp/vMlI/uhNorjdY5yohXA5UP669hILjXDgAAAAAOgAAAAAIAACAAAAA7aFPUNvgbHbL9HHVIlUzIfc5XPiVIhSdcGoIx6HlQdiAAAACGOv0gQc/PhN/sbPYgJO5WXph75n+hiPSg4bl6RMHfq0AAAACp6r6ZlCJ2/zzXZUUuMhrgWzBYK2Ac9R7ZasU0HL+73I4+AGaW9vvgPxYJhvsRGuRpHr4FBxJ9O6FKEDM1fdAp</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWUJ+xwd8bkGRr5btKAu1swAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADxaHrDCkMuCsJZ4xK2RJoQmviSGLb/OHbphQCw3cpPjQAAAAAOgAAAAAIAACAAAABLuRqqBFWgywHNE7pgw7ZUU4lyfOdvX+mHg9VghrWZhiAAAACOHw3B97I+ZtzIy/xdnn0v5iCUqDBkAjlzMqPx+elgjUAAAACFk9swNMc4kqvAPt9EQ+YnTIfLzIgvgYYhXstXJooTyNIclF/zCP3sivv/ZaIXPhsozhgyL/dFmSCzWOR9Jjxt</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -75,7 +75,7 @@
         <DTS:Property
           DTS:DataType="8"
           DTS:Name="ParameterValue"
-          Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWUJ+xwd8bkGRr5btKAu1swAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACJJOMZJDXNEogLAR/46B1ZWLIFx7dHytmF5zb9fg6RuQAAAAAOgAAAAAIAACAAAACOCX6WRx3itF1rQEfujdK/ra5//HOcxDrMK0JSy742VCAAAAB8iEApS33Upt8IEQAx94lQTGUT6SoLOtDA57JAq6EBZEAAAABQprpGru/Ccy3J+KLUEedrCbR36BdRO+ZpVoekfehFQGafDqi0VgEvS3n9vWAzCbr9y9aGSjl+hsipjlwpZpnj</DTS:Property>
+          Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWUJ+xwd8bkGRr5btKAu1swAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABRgo4pr63c6Yp+dWCbVMtVSI2r97fpqfOd2poGi11I3gAAAAAOgAAAAAIAACAAAACiwj2Yjum0mNawdr8Uujl74AEEBOaBnoDvrRD2PPo6LSAAAADoI8LYkK7dERxs5wFHKomt0gUWRYLoympLf6QBIHeogUAAAAAw/H09ZvlZmmlt8FNZwr3nsLRBxWlD/S8xq/xLV7YMjddaPHH01X6EbvRRVHE83NUH/05vA5w+IzMI0qKGm1rQ</DTS:Property>
       </DTS:Property>
     </DTS:PackageParameter>
     <DTS:PackageParameter
@@ -417,33 +417,33 @@
         <NodeLayout
           Size="113,42"
           Id="Package\Sequence Container\Foreach Loop Container\EST_1"
-          TopLeft="39,14" />
+          TopLeft="98,13" />
         <EdgeLayout
           Id="Package\Sequence Container\Foreach Loop Container.PrecedenceConstraints[Constraint]"
-          TopLeft="95.5,56">
+          TopLeft="154.5,55">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="35,54"
+              EndConnector="-24,55"
               Start="0,0"
-              End="35,46.5">
+              End="-24,47.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,23" />
+                    End="0,23.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,23"
-                    Point2="0,27"
-                    Point3="4,27" />
+                    Point1="0,23.5"
+                    Point2="0,27.5"
+                    Point3="-4,27.5" />
                   <mssgle:LineSegment
-                    End="31,27" />
+                    End="-20,27.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="31,27"
-                    Point2="35,27"
-                    Point3="35,31" />
+                    Point1="-20,27.5"
+                    Point2="-24,27.5"
+                    Point3="-24,31.5" />
                   <mssgle:LineSegment
-                    End="35,46.5" />
+                    End="-24,47.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
